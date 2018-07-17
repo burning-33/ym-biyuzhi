@@ -1,0 +1,49 @@
+.mainBox{
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    overflow: hidden;
+    overflow-x: auto;
+    min-height: 400px;
+  }
+  .main{
+    /*width: 90%;*/
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 25px;
+    min-width: 1180px;
+    margin-bottom: 10px;
+    -webkit-overflow-scrolling: touch;
+    /*overflow: hidden;*/
+    /*overflow-x: auto;*/
+    table{
+      thead{
+        th{
+          background: #ddd!important;
+        }
+      }
+      
+    }
+  }
+
+  .table > thead:first-child > tr:first-child > th{
+    background: rgba(245, 247, 250, 0.83)!important;
+    font-size:13px;
+  }
+
+  .table > tbody > tr > td{
+    border-left:none;
+    border-right:none;
+  }
+
+  .table > tbody > tr > td img{
+    width:23px;
+  }
+
+  
+/*移动端*/
+@media only screen and (max-width: 1039px){
+  .main{
+    // height: 400px;
+    min-width: 1200px;
+  }
+}
